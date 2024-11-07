@@ -96,7 +96,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: calc(20vw + 65px);
+  width: calc(15.8vw + 65px);
   padding: .25rem;
   background: #28242c;
 }

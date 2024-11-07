@@ -155,7 +155,7 @@ export default {
 <style scoped>
 .video {
   position: absolute;
-  right: 30px;
+  right: 20px;
   bottom: 25px;
 }
 .icon {
@@ -176,8 +176,8 @@ video {
   top: 0;
   background: #38343c;
   height: 89.1vh;
-  width: 74vw;
-  margin-left: 25vw;
+  width: 78vw;
+  margin-left: 20vw;
 }
 .video-container {
   display: flex;

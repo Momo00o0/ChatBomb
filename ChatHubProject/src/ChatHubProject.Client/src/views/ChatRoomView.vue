@@ -12,7 +12,6 @@ import chatService from '../services/ChatService.js';
 <template>
   <div class="wrapper" v-if="connected">
     <div class="flex">
-      <ServerComponent id="server" />
       <SignalRList id="userlist"/>
       <!-- Todo: Replace MessageBox with PrivateMessageBox component -->
       <MessageBox id="messagebox"/>
