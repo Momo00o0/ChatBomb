@@ -14,7 +14,6 @@ import 'vue3-toastify/dist/index.css';
 <template>
   <div class="wrapper" v-if="connected">
     <div class="flex">
-      <ServerComponent id="server" />
       <SignalRList id="userlist"/>
       <MessageBox id="messagebox" />
     </div>
